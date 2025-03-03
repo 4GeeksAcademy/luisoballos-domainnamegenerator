@@ -4,10 +4,10 @@ let noun = ['jogger', 'racoon'];
 let domain = ['.com', '.net', '.tv', '.us']
 let numOfCombinations = 0
 
-for (i in pronoun){
-  for (j in adj){
-    for (k in noun){
-      for (a in domain){
+for (let i in pronoun){
+  for (let j in adj){
+    for (let k in noun){
+      for (let a in domain){
         console.log(`${pronoun[i]}${adj[j]}${noun[k]}${domain[a]}`)
         numOfCombinations++
       }
